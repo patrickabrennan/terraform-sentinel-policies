@@ -66,7 +66,7 @@ policy "restrict-assumed-roles" {
 
 policy "restrict-availability-zones" {
   source = "./restrict-availability-zones.sentinel"
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "restrict-current-ec2-instance-type" {
